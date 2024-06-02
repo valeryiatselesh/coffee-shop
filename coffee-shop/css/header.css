@@ -48,3 +48,82 @@
    padding-bottom: 2px;
    width: 72px;
 }
+@media (max-width: 768px) {
+   .header__icon {
+      z-index: 10;
+      display: block;
+      position: relative;
+      width: 44px;
+      height: 44px;
+      border-radius: 100px;
+      border: 1px solid var(--border-dark);
+      cursor: pointer;
+   }
+   .header__icon span,
+   .header__icon::after {
+      left: 12px;
+      position: absolute;
+      height: 1.5px;
+      width: 18px;
+      transition: all 0.3s ease 0s;
+      background-color: var(--text-dark);
+   }
+   .header__icon::after {
+      content: "";
+      bottom: 40%;
+   }
+   .header__icon span {
+      top: 40%;
+   }
+   .header__icon._active span{
+      top: 50%;
+      transform: rotate(-45deg) translate(0px, -50%);
+   }
+   .header__icon._active::after{
+      bottom: 50%;
+      transform: rotate(45deg) translate(0px, 50%);
+   }
+   .header__navigation{
+      position: fixed;
+      left: 100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--background-body);
+      padding: 160px 40px 60px 40px;
+      transition: left 0.3s ease 0s;
+      overflow: auto;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      gap: 100px;
+   }
+   .header__navigation._active{
+      left: 0;
+   }
+   .header__links {
+      flex-direction: column;
+      align-items: center;
+      gap: 60px;
+   }
+   .header__link a,
+   .header__menu li > a{
+      display: inline;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125%;
+   }
+   .header__menu {
+      padding-right: 18px;
+      background: url('../icons/coffee-cup-burger.svg') 100% -5px no-repeat;
+   }
+   .header__menu-active {
+      height: 31px;
+   }
+   .header__menu-active a{
+      pointer-events: auto;
+   }
+}

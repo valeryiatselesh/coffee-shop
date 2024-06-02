@@ -1,0 +1,50 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.header__logo {
+   z-index: 10;
+   flex: 1 1 auto;
+}
+.header__navigation {
+   display: flex;
+   justify-content: space-between;
+   flex: 1 1 auto;
+}
+.header__icon {
+   display: none;
+}
+.header__links {
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
+}
+.header__link {
+   position: relative;
+	display: block;
+   padding-bottom: 2px;
+}
+.header__menu li > a {
+   position: relative;
+	display: inline-block;
+   padding-right: 30px;
+   cursor: pointer;
+}
+.header__menu {
+   background: url('../icons/coffee-cup.svg') 100% 0 no-repeat;
+}
+.header__menu-active {
+   background: url('../icons/coffee-cup.svg') 100% 0 no-repeat;
+   height: 28px;
+}
+.header__menu-active a{
+   position: relative;
+	display: inline-block;
+   padding-right: 30px;
+   pointer-events: none;
+   border-bottom: 2px solid var(--text-dark);
+   padding-bottom: 2px;
+   width: 72px;
+}

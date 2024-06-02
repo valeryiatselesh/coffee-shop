@@ -4,6 +4,8 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/common.css">
+   <link rel="stylesheet" href="css/header.css">
    <link rel="icon" type="image/png" sizes="32x32" href="/coffee-shop/icons/favicon-32x32.png">
    <link rel="icon" type="image/png" sizes="16x16" href="/coffee-shop/icons/favicon-16x16.png">
    <style>
@@ -17,17 +19,20 @@
          <div class="header__logo">
             <img src="/coffee-shop/icons/logo.svg" alt="Logo image">
          </div>
-         <nav class="header__menu">
-            <ul>
-               <li><a href="#">Favorite coffee</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Mobile app</a></li>
-               <li><a href="#">Contact us</a></li>
+         <nav class="header__navigation">
+            <ul class="header__links">
+               <li class="header__link"><a class="action__link-button" href="#">Favorite coffee</a></li>
+               <li class="header__link"><a class="action__link-button" href="#">About</a></li>
+               <li class="header__link"><a class="action__link-button" href="#">Mobile app</a></li>
+               <li class="header__link"><a class="action__link-button" href="#">Contact us</a></li>
             </ul>
-            <ul>
-               <li><a href="#">Menu</a></li>
+            <ul class="header__menu">
+               <li><a class="action__link-button" href="#">Menu</a></li>
             </ul>
          </nav>
+         <div class="header__icon">
+            <span></span>
+         </div>
       </div>
    </header>
    <main>

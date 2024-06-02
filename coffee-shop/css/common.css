@@ -1,0 +1,10 @@
+.accent {
+   font-style: italic;
+   color: var(--text-accent);
+}
+.action__link-button {
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 150%;
+   color: var(--text-dark);
+}

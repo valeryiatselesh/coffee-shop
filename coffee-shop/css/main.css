@@ -32,3 +32,18 @@
 .enjoy__subtitle {
    color: var(--text-light);
 }
+@media (max-width: 768px) {
+   .enjoy__container {
+      padding: 100px 60px;
+   }
+}
+@media (max-width: 620px) {
+   .enjoy__container {
+      padding: 60px 16px;
+   }
+}
+@media (max-width: 380px) {
+   .enjoy__container {
+      max-height: 552px;
+   }
+}

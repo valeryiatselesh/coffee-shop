@@ -62,8 +62,44 @@
    height: 100%;
    transition: ease-in 0.3s;
 }
+@media (max-width: 768px) {
+   body._lock{
+      overflow: hidden;
+   }
+   .heading__1 {
+      font-size: clamp(42px, 0.789rem + 8vw, 72px);
+   }
+   .button__primary a {
+      padding-right: 26px;
+      transition: none;
+   }
+   .button__primary a:before {
+      opacity: 1;
+      transition: none;
+   }
+}
 @media (max-width: 620px) {
    .wrapper {
       padding: 20px 16px 40px 16px;
+   }
+   .heading__1 {
+      line-height: 115%;
+   }
+   .heading__2 {
+      font-size: 32px;
    }  
+}
+@media (hover:hover) and (pointer:fine) {
+   .button__primary a:hover {
+      text-indent: -26px;
+   }
+   .button__primary a:hover:before {
+      opacity: 1;
+      text-indent: 0px;
+   }
+   @media (max-width: 768px) {
+      .button__primary a:hover {
+         text-indent: 0px;
+      }
+   }
 }

@@ -1,0 +1,34 @@
+.enjoy {
+   margin-bottom: 100px;
+}
+.enjoy__container {
+   position: relative;
+   padding: 100px;
+   border-radius: 40px;
+   background: url('../img/rest/img-hero.jpg') lightgray 50% / cover no-repeat;
+   overflow: hidden;
+   z-index: 0;
+}
+.enjoy__video {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+.enjoy__content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 40px;
+   max-width: 530px;
+}
+.enjoy__title {
+   color: var(--text-light);
+}
+.enjoy__subtitle {
+   color: var(--text-light);
+}

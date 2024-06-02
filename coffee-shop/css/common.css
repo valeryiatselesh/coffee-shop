@@ -8,3 +8,62 @@
    line-height: 150%;
    color: var(--text-dark);
 }
+.wrapper {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 20px 40px 40px 40px;
+}
+.heading__1 {
+   font-size: 72px;
+   font-weight: 600;
+   line-height: 105%;
+}
+.heading__2 {
+   font-size: 60px;
+   font-weight: 600;
+   line-height: 125%;
+}
+.heading__3 {
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 125%;
+}
+.body__medium {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 150%;
+}
+.body__caption{
+   font-size: 10px;
+   font-weight: 600;
+   line-height: 140%;
+   color: var(--text-dark);
+}
+.button__primary a{
+   background: var(--background-body);
+   width: 200px;
+   border-radius: 100px;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   padding: 20px 0px;
+   overflow: hidden;
+   transition: ease-in 0.3s;
+}
+.button__primary a:before {
+   content: url('../icons/coffee-cup.svg');
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   right: 64px;
+   top: 2px;
+   opacity: 0;
+   height: 100%;
+   transition: ease-in 0.3s;
+}
+@media (max-width: 620px) {
+   .wrapper {
+      padding: 20px 16px 40px 16px;
+   }  
+}

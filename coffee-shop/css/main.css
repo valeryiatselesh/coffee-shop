@@ -32,6 +32,105 @@
 .enjoy__subtitle {
    color: var(--text-light);
 }
+.favorites {
+   margin-bottom: 100px;
+}
+.favorites__container {
+   text-align: center;
+}
+.slider__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 40px 0px;
+   gap: 40px;
+   flex: 1 1 auto;
+   position: relative;
+
+}
+.slider__wrapper {
+   max-width: 480px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.slider__items {
+   display: flex;
+   align-items: center;
+   transition: all 1s;
+}
+.slider__item {
+   flex: 1 1 100%;
+   width: 100%;
+   transition: ease-in 0.5s;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   transition: ease-in-out 400ms;
+}
+.slider__navigation {
+   flex: 0 1 auto;
+}
+.slider__img img {
+   width: 100%;
+   object-fit: cover;
+}
+.slider__coffee-info {
+   flex: 1 1 auto;
+}
+.slider__arrow {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 18px;
+   border-radius: 100px;
+   border: 1px solid var(--border-dark);
+   transition: ease-out 0.5s;
+   cursor: pointer;
+}
+.slider__arrow-prev {
+   transform: scaleX(-1);
+}
+.slider__coffee-info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 16px;
+   max-width: 480px;
+}
+.slider__coffee-description {
+   text-align: center;
+}
+.slider__controls {
+   display: flex;
+   justify-content: center;
+   gap: 12px;
+}
+.slider__control {
+   display: block;
+   width: 40px;
+   height: 4px;
+   background-color: var(--border-light);
+   border-radius: 100px;
+}
+.slider__control-line {
+   display: block;
+   width: 0;
+   height: 4px;
+   background-color: var(--border-dark);
+   border-radius: 100px;
+}
+.slider__control-active .slider__control-line {
+   animation: pagination 5s linear;
+}
+@keyframes pagination {
+   from {
+     width: 0;
+   }
+   to {
+     width: 40px;
+   }
+}
 @media (max-width: 768px) {
    .enjoy__container {
       padding: 100px 60px;
@@ -42,8 +141,23 @@
       padding: 60px 16px;
    }
 }
+@media (max-width: 520px) {
+   .slider__navigation {
+      display: none;
+   }
+}
 @media (max-width: 380px) {
    .enjoy__container {
       max-height: 552px;
+   }
+}
+@media (hover:hover) and (pointer:fine) {
+   .slider__arrow:hover #arrow-prev,
+   .slider__arrow:hover #arrow-next {
+      stroke: var(--text-light);
+   }
+   .slider__arrow:hover {
+      background: var(--background-container);
+      transition: ease-out 0.5s;
    }
 }

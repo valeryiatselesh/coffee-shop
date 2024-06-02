@@ -1,1 +1,1 @@
-# coffee-shop
+# School project Coffee-shop

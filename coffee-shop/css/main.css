@@ -179,6 +179,61 @@
 .about__img-4 img {
    height: 590px;
 }
+.app {
+   margin-bottom: 100px;
+}
+.app__container {
+   display: flex;
+   align-items: center;
+   gap: 100px;
+   flex: 1 1 auto;
+}
+.app__content {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   flex: 1 1 50%;
+}
+.app__img {
+   flex: 1 1 50%;
+}
+.app__img img{
+   max-width: 630px;
+   object-fit: cover;
+   width: 100%;
+}
+.app__buttons {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+.app__button {
+   border-radius: 100px;
+   border: 1px solid var(--border-dark, #665F55);
+   width: 200px;
+   height: 64px;
+   transition: ease-in 0.5s;
+}
+.app__button-link {
+   padding: 12px 20px;
+   display: flex;
+   gap: 8px;
+}
+.app__button-link div,
+.app__button-link p {
+   transition: ease-in 0.5s;  
+}
+.app__button-link p{
+   padding-top: 2px;
+}
+.app__button-link #app-link-1,
+.app__button-link #app-link-2,
+.app__button-link #google-link-1,
+.app__button-link #google-link-2,
+.app__button-link #google-link-3,
+.app__button-link #google-link-4 {
+   transition: ease-in 0.5s;
+}
 @media (min-width: 1439px) {
    .about__title {
       width: 1363px;
@@ -201,10 +256,16 @@
    .about__img-3{
       display: none;
    }
+   .app__container {
+      flex-direction: column;
+   }
 }
 @media (max-width: 620px) {
    .enjoy__container {
       padding: 60px 16px;
+   }
+   .app__container {
+      gap: 40px;
    }
 }
 @media (max-width: 520px) {
@@ -233,5 +294,23 @@
    .about__img:hover img {
       transition: ease-out 0.5s;
       transform: scale(1);
+   }
+   .app__button:hover {
+      background: var(--background-container);
+      transition: ease-in 0.5s;
+   }
+   .app__button-link:hover div,
+   .app__button-link:hover p {
+      color: var(--text-light);
+      transition: ease-in 0.5s;
+   }
+   .app__button-link:hover #app-link-1,
+   .app__button-link:hover #app-link-2,
+   .app__button-link:hover #google-link-1,
+   .app__button-link:hover #google-link-2,
+   .app__button-link:hover #google-link-3,
+   .app__button-link:hover #google-link-4 {
+      fill: var(--text-light);
+      transition: ease-in 0.5s;
    }
 }

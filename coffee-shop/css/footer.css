@@ -1,0 +1,73 @@
+.footer {
+   display: flex;
+   align-items: center;
+   border-radius: 40px;
+   gap: 100px;
+   background: var(--background-container);
+   padding: 100px;
+}
+.footer__content {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   flex: 0 1 50%;
+}
+.footer__message {
+   color: var(--text-light);
+}
+.footer__socials-items {
+   display: flex;
+   gap: 12px;
+}
+.footer__socials-item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: ease-in 0.5s;
+}
+.footer__link {
+   border-radius: 100px;
+   border: 1px solid var(--border-light);
+   padding: 16px 17px;
+   transition: ease-in 0.5s;
+}
+.footer__link #twitter,
+.footer__link #instagram-1,
+.footer__link #instagram-2,
+.footer__link #instagram-3,
+.footer__link #facebook {
+   transition: ease-in 0.5s;
+}
+.footer__title {
+   color: var(--text-light);
+}
+.footer__contacts-items {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+.footer__contacts-item span {
+   position: relative;
+	display: inline-block;
+   padding-left: 28px;
+   padding-bottom: 4px;
+}
+.footer__contacts-item a {
+	position: relative;
+	display: inline-block;
+   padding-left: 28px;
+   padding-bottom: 4px;
+}
+.footer__adress {
+   background: url('../icons/pin-alt.svg') left top no-repeat;
+}
+.footer__phone {
+   background: url('../icons/phone.svg') left top no-repeat;
+}
+.footer__schedule {
+   background: url('../icons/clock.svg') left top no-repeat;
+}
+.footer__contacts a,
+.footer__contacts span {
+   color: var(--text-light);
+}

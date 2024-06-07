@@ -1,0 +1,120 @@
+.menu {
+   margin-bottom: 100px;
+}
+.menu__container {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 40px;
+}
+.menu__title {
+   width: 800px;
+   text-align: center;
+}
+.menu__navigation {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+.menu__tabs {
+   display: flex;
+   justify-content: center;
+   gap: 16px; 
+}
+.menu__tab {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   border-radius: 100px;
+   border: 1px solid var(--border-light);
+   padding: 7px 16px 7px 8px;
+   cursor: pointer;
+   transition: ease-out 0.5s;
+}
+.menu__tab span {
+   transition: ease-out 0.5s;
+}
+.menu__tab img {
+   border-radius: 100px;
+   background: var(--border-light);
+   padding: 6.5px;
+}
+ .menu__items-container:not(._active) {
+   display: none;
+ }
+.menu__tab-active {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   border-radius: 100px;
+   border: 1px solid var(--border-light);
+   padding: 7px 14.56px 7px 8px;
+   pointer-events: none;
+   background: var(--background-container);
+}
+.menu__tab-active span {
+   color: var(--text-light);
+}
+.menu__tab-active img {
+   border-radius: 100px;
+   background: var(--background-body);
+   padding: 6.5px;
+}
+.menu__items-container {
+   flex-direction: column;
+   gap: 40px;
+}
+._active {
+   display: flex;
+}
+.menu__items {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 40px;
+}
+.menu__item {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border-radius: 40px;
+   border: 1px solid var(--border-light);
+   width: 310px;
+   height: 506px;
+   cursor: pointer;
+}
+.menu__image {
+   overflow: hidden;
+   border-radius: 40px;
+   height: 310px;
+   flex: 0 0 auto;
+}
+.menu__image img{
+   transform: scale(1.1);
+   object-fit: cover;
+   width: 100%;
+   transition: ease-out 0.5s;
+   max-width: 310px;
+   height: 100%;
+}
+.menu__text {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   padding: 20px;
+   height: 100%;
+}
+.menu__info {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+}
+.menu__refresh {
+   display: none;
+}
+@media (max-width: 870px) {
+   .menu__title {
+      width: 100%;
+   }
+}

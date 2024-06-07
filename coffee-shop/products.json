@@ -1,6 +1,6 @@
 [
    {
-     "img": "images/coffee/coffee-1.jpg",
+     "img": "img/coffee/coffee-1.jpg",
      "alt": "coffee image",
      "name": "Irish coffee",
      "description": "Fragrant black coffee with Jameson Irish whiskey and whipped milk",
@@ -37,7 +37,7 @@
    },
  
    {
-     "img": "images/coffee/coffee-2.jpg",
+     "img": "img/coffee/coffee-2.jpg",
      "alt": "coffee image",
      "name": "Kahlua coffee",
      "description": "Classic coffee with milk and Kahlua liqueur under a cap of frothed milk",
@@ -74,7 +74,7 @@
    },
  
    {
-     "img": "images/coffee/coffee-3.jpg",
+     "img": "img/coffee/coffee-3.jpg",
      "alt": "coffee image",
      "name": "Honey raf",
      "description": "Espresso with frothed milk, cream and aromatic honey",
@@ -111,7 +111,7 @@
    },
  
    {
-     "img": "images/coffee/coffee-4.jpg",
+     "img": "img/coffee/coffee-4.jpg",
      "alt": "coffee image",
      "name": "Ice cappuccino",
      "description": "Cappuccino with soft thick foam in summer version with ice",
@@ -148,7 +148,7 @@
    },
  
    {
-     "img": "images/coffee/coffee-5.jpg",
+     "img": "img/coffee/coffee-5.jpg",
      "alt": "coffee image",
      "name": "Espresso",
      "description": "Classic black coffee",
@@ -185,7 +185,7 @@
    },
  
    {
-     "img": "images/coffee/coffee-6.jpg",
+     "img": "img/coffee/coffee-6.jpg",
      "alt": "coffee image",
      "name": "Latte",
      "description": "Espresso coffee with the addition of steamed milk and dense milk foam",
@@ -222,7 +222,7 @@
    },
  
    {
-     "img": "images/coffee/coffee-7.jpg",
+     "img": "img/coffee/coffee-7.jpg",
      "alt": "coffee image",
      "name": "Latte macchiato",
      "description": "Espresso with frothed milk and chocolate",
@@ -259,7 +259,7 @@
    },
  
    {
-     "img": "images/coffee/coffee-8.jpg",
+     "img": "img/coffee/coffee-8.jpg",
      "alt": "coffee image",
      "name": "Coffee with cognac",
      "description": "Fragrant black coffee with cognac and whipped cream",
@@ -296,7 +296,7 @@
    },
  
    {
-     "img": "images/tea/tea-1.jpg",
+     "img": "img/tea/tea-1.jpg",
      "alt": "tea image",
      "name": "Moroccan",
      "description": "Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint",
@@ -333,7 +333,7 @@
    },
  
    {
-     "img": "images/tea/tea-2.jpg",
+     "img": "img/tea/tea-2.jpg",
      "alt": "tea image",
      "name": "Ginger",
      "description": "Original black tea with fresh ginger, lemon and honey",
@@ -370,7 +370,7 @@
    },
  
    {
-     "img": "images/tea/tea-3.jpg",
+     "img": "img/tea/tea-3.jpg",
      "alt": "tea image",
      "name": "Cranberry",
      "description": "Invigorating black tea with cranberry and honey",
@@ -407,7 +407,7 @@
    },
  
    { 
-     "img": "images/tea/tea-4.jpg",
+     "img": "img/tea/tea-4.jpg",
      "alt": "tea image",
      "name": "Sea buckthorn",
      "description": "Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon",
@@ -444,7 +444,7 @@
    },
  
    {
-     "img": "images/desserts/dessert-1.jpg",
+     "img": "img/desserts/dessert-1.jpg",
      "alt": "dessert image",
      "name": "Marble cheesecake",
      "description": "Philadelphia cheese with lemon zest on a light sponge cake and red currant jam",
@@ -481,7 +481,7 @@
    },
  
    {
-     "img": "images/desserts/dessert-2.jpg",
+     "img": "img/desserts/dessert-2.jpg",
      "alt": "dessert image",
      "name": "Red velvet",
      "description": "Layer cake with cream cheese frosting",
@@ -518,7 +518,7 @@
    },
  
    {
-     "img": "images/desserts/dessert-3.jpg",
+     "img": "img/desserts/dessert-3.jpg",
      "alt": "dessert image",
      "name": "Cheesecakes",
      "description": "Soft cottage cheese pancakes with sour cream and fresh berries and sprinkled with powdered sugar",
@@ -555,7 +555,7 @@
    },
  
    {
-     "img": "images/desserts/dessert-4.jpg",
+     "img": "img/desserts/dessert-4.jpg",
      "alt": "dessert image",
      "name": "Creme brulee",
      "description": "Delicate creamy dessert in a caramel basket with wild berries",
@@ -592,7 +592,7 @@
    },
  
    {
-     "img": "images/desserts/dessert-5.jpg",
+     "img": "img/desserts/dessert-5.jpg",
      "alt": "dessert image",
      "name": "Pancakes",
      "description": "Tender pancakes with strawberry jam and fresh strawberries",
@@ -629,7 +629,7 @@
    },
  
    {
-     "img": "images/desserts/dessert-6.jpg",
+     "img": "img/desserts/dessert-6.jpg",
      "alt": "dessert image",
      "name": "Honey cake",
      "description": "Classic honey cake with delicate custard",
@@ -666,7 +666,7 @@
    },
  
    {
-     "img": "images/desserts/dessert-7.jpg",
+     "img": "img/desserts/dessert-7.jpg",
      "alt": "dessert image",
      "name": "Chocolate cake",
      "description": "Cake with hot chocolate filling and nuts with dried apricots",
@@ -703,7 +703,7 @@
    },
  
    {
-     "img": "images/desserts/dessert-8.jpg",
+     "img": "img/desserts/dessert-8.jpg",
      "alt": "dessert image",
      "name": "Black forest",
      "description": "A combination of thin sponge cake with cherry jam and light chocolate mousse",

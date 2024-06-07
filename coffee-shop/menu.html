@@ -39,7 +39,39 @@
          </div>
       </header>
       <main>
-
+         <section class="menu" id="menu">
+            <div class="menu__container">
+               <h1 class="menu__title heading__2">Behind each of our cups hides an <span class="accent">amazing
+                     surprise</span></h1>
+               <div class="menu__navigation">
+                  <div class="menu__tabs">
+                     <div class="menu__tab _active menu__tab-active" data-tab-name="menu__items-coffee" data-tab="tab_coffee">
+                        <img src="./icons/coffee.svg" alt="coffee cup icon">
+                        <span class="action__link-button">Coffee</span>
+                     </div>
+                     <div class="menu__tab" data-tab-name="menu__items-tea" data-tab="tab_tea">
+                        <img src="./icons/tea.svg" alt="coffee cup icon">
+                        <span class="action__link-button">Tea</span>
+                     </div>
+                     <div class="menu__tab" data-tab-name="menu__items-dessert" data-tab="tab_dessert">
+                        <img src="./icons/dessert.svg" alt="coffee cup icon">
+                        <span class="action__link-button">Dessert</span>
+                     </div>
+                  </div>
+                  <div class="menu__items-container _active" id="tab_coffee">
+                     <div class="menu__items menu__items-coffee"></div>
+                     <div class="menu__refresh menu__refresh-coffee"><img src="./icons/menu-refresh.svg" alt="refresh button"></div>
+                  </div>
+                  <div class="menu__items-container" id="tab_tea">
+                     <div class="menu__items menu__items-tea"></div>
+                  </div>
+                  <div class="menu__items-container" id="tab_dessert">
+                     <div class="menu__items menu__items-dessert"></div>
+                     <div class="menu__refresh menu__refresh-dessert"><img src="./icons/menu-refresh.svg" alt="refresh button"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
       </main>
       <footer id="contact">
          <div class="footer">
